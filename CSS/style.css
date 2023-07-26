@@ -1,0 +1,100 @@
+body {
+    background-color: #E6E6E6;
+  }
+  /* Navigation CSS */
+  .nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-item {
+    padding: 5px 10px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .inline-block {
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .inline-block {
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .logo {
+    width: 23%;
+    padding: 1%;
+  }
+  
+  nav {
+    width: 73%;
+    padding: 1px;
+    margin-left: auto;
+  }
+  
+  ul {
+    width: 45%;
+    margin-left: auto;
+  }
+  
+  .logo img {
+    text-align: center;
+  }
+  
+  /* Hero Image CSS */
+  .heroImg {
+    height: 500px;
+    padding: 100px;
+  }
+  
+  .content {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  /* Simple Grid */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin: 50px auto;
+    max-width: 600px;
+    justify-content: center;
+    }
+  
+  .grid-item {
+    background-color: #B1B1B1;
+    padding: 120px;
+    text-align: center;
+    border-radius: 18px;
+  }
+  
+  /* Footer CSS */
+  footer {
+    background-color: #393939;
+    padding: 10px;
+  }
+  
+  footer ul {
+    display: inline-block;
+    vertical-align: top;
+    padding: 50;
+  }
+  
+  footer li {
+    padding: 5px;
+    color: white;
+  }
+  
+  
